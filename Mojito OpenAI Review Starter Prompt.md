@@ -68,15 +68,19 @@ If relevant, also include:
 - **ICU plurals** → PT-BR requires `one` + `other` only (CLDR); gender agreement required on both forms
 - **Ordinal strings** → PT-BR CLDR `other` only; keep all source category keys; feminine "ª" correct for Mon–Fri weekdays only
 - **PT-BR cardinal plurals**: `one` = n of 1; `other` = everything else
+- **Implicit noun gender** → when a status label modifies an implicit noun, agree with that noun (e.g., "verificação" is feminine → "Bem-sucedida," "Desconhecida," "Personalizada"); flag for PM confirmation if implicit noun is uncertain
 
 ### Terminology Patterns
-- **Git terms** → kept in English (pull request, PRs, PR); merge conflict pending
+- **Git terms** → kept in English: commit, push, pull request, PRs, PR, branch, feature branch, worktree, handler, matcher; merge conflict pending
+- **Developer-facing technical terms** → DNT unless established PT-BR term exists: layout, tooltip, feature flags, handler, matcher, worktree
 - **Apple product names** → DNT; verify localizability before translating
 - **Brackets `[…]` in prompt templates** → translate content, preserve brackets, maintain consistency across occurrences
 - **"Rascunho"** → document/email drafts only; use "proposta/sugerida" for calendar/event contexts
 - **"Prontuários"** → Health v3 medical records only; "registros" for general data
 - **Frequency chips** → adjective form ("Diário," "Semanal," "Mensal," "Anual")
 - **Frequency full phrases** → adverb form ("Diariamente," "Mensalmente," etc.)
+- **"Composer" (UI component)** → DNT; "compositor" is incorrect in PT-BR (means music composer/typesetter)
+- **"Google Slides"** → DNT; keep in English as "Google Slides" with article "o" → "para o Google Slides"
 
 ### Surface-Specific
 - **Aria/accessibility labels** → visual character limits do not apply; precision over brevity
@@ -86,6 +90,10 @@ If relevant, also include:
 - **Modal descriptions** → warm, plainspoken, sentence case (§4.5)
 - **Setup step titles** → imperative acceptable over infinitive
 - **Promo/marketing CTAs** → imperative acceptable over infinitive when context note requests action command
+- **System status/warning strings** → prefer explicit passive voice construction over floating past participle (e.g., "O estado foi movido" over "Estado movido"); consistent with approved pattern
+- **Storybook descriptions** → developer-facing; technical terms DNT; treat as developer register throughout
+- **Settings group headings** → sentence case; component names DNT and capitalized
+- **Picker/preset labels** → concise, single word preferred where natural; superlative forms over "muito + adjective" constructions
 
 ---
 
@@ -135,11 +143,54 @@ If relevant, also include:
 | "Noite" | approved for "Evening" |
 | "Madrugada" | approved for "Night" / overnight |
 | "Configuração inicial" | approved for "onboarding" on the parent-led child onboarding modal surface |
-| "workspace" → "Espaço de trabalho" | approved for tab label context only; do not normalize on other surfaces without confirmation |
+| "workspace" → "espaço de trabalho" | approved across all OpenAI/Codex strings (not tab label only) |
 | Action labels | use infinitive form (§4.1) for CTA buttons, menu items, and action labels; imperative not approved |
 | "calendário" | preferred over "agenda" in calendar integration contexts |
+| "rate limit" → "limite de uso" | approved PT-BR rendering; not kept in English, not "limite de taxa" — apply consistently across all OpenAI/Codex strings |
+| "file attachments" → "anexos" | approved plural noun label; lowercase |
+| "your child" → "seu filho" | approved masculine default per stakeholder preference |
+| "check-in" (agentic context) → "confirmação" | means pause for user confirmation before agent proceeds; not "atualização" |
+| Preposition before time/reset placeholders | do NOT add fixed preposition before placeholder if placeholder carries its own; e.g., drop "em" before $resets_after |
+| "rate limit reset" (noun) → "redefinição do limite de uso" | noun phrase for a discrete reward/event |
+| "Extra High" (Intelligence picker) → "Altíssimo" | approved for all instances including compound labels (e.g., "Raciocínio Altíssimo") |
+| "Pro Extended" → "Pro Estendido" | Intelligence picker preset; "Pro" DNT |
+| "reasoning" / "Thinking" (feature mode) → "Raciocínio" | per glossary; applies in compound preset labels |
+| "Speech output" → "Respostas por voz" | What's New section heading, agent builder |
+| "More assistive agent building experience" → "Criação de agentes mais assistida" | What's New section heading |
+| "A few things to know" → "Algumas coisas para saber" | bottom sheet title; "pontos importantes" rejected as too formal |
+| "check-in" → "confirmação" | agentic reasoning sidebar; "atualização" incorrect |
+| Passive voice for system status/warning strings | use "foi [verb]" construction; avoids ambiguous implicit subject |
+| "Stopped reviewing network access to %@" → "A revisão do acesso à rede para %@ foi interrompida." | approved passive construction; %@ preserved |
+| "Pursuing goal" → "Buscando meta" | Codex Remote active goal status |
+| "referral email" → "e-mail de indicação" | approved rendering |
+| "non-social domain" → "domínio não social" | domain validation error context |
+| "Referral email domain must match a non-social workspace domain" → "O domínio do e-mail de indicação deve corresponder a um domínio não social do espaço de trabalho" | full approved string |
+| "Personalized" (status, implicit noun = resposta) → "Personalizada" | feminine agreement; flag if implicit noun differs |
+| "Running" (check status) → "Em andamento" | thread summary panel flyout |
+| "Succeeded" (check status, implicit noun = verificação) → "Bem-sucedida" | feminine agreement; flag if implicit noun differs |
+| "Unknown" (check status, implicit noun = verificação) → "Desconhecida" | feminine agreement; flag if implicit noun differs |
+| "feature flags" | DNT in developer-facing contexts; "flags de recurso" rejected as inconsistent hybrid |
+| "Commit or push" → "Commit ou push" | Git command menu item; "fazer" dropped for conciseness |
+| "worktree" | DNT; masculine in PT-BR ("um novo worktree") |
+| "Handler" (hook config) | DNT; "manipulador" rejected |
+| "Matcher" (hook config) | DNT; "correspondência" rejected |
+| "Tooltip" (Storybook) | DNT; "dica" rejected |
+| "Composer" (UI component) | DNT capitalized; "compositor" rejected (wrong meaning in PT-BR) |
+| "Google Slides" | DNT; "para o Google Slides" (with article "o") |
+| "Export to Google Slides" → "Exportar para o Google Slides" | approved with article |
+| "Draft from Drive context" → "Rascunho do contexto do Drive" | benefit title; "com base no" rejected as too heavy per Mojito AI Chat Review |
+| "Moved git state to the destination worktree, but couldn't switch this chat there" → "O estado do git foi movido para a worktree de destino, mas não foi possível mudar este chat para lá" | passive voice construction approved |
+| "Composer footer" → "Rodapé do Composer" | settings group heading; "compositor" rejected |
+| "Chats" (iOS Global Search filter) → "Conversas" | established PT-BR for this surface |
+| "Chat" (iOS Global Search fallback subtitle) → "Conversa" | singular consistent with "Conversas" |
+| "Search chats, files, and projects" → "Pesquisar conversas, arquivos e projetos" | "chats" corrected to "conversas" for consistency |
+| "$cadence task" → "Tarefa $cadence" | noun + modifier word order; placeholder preserved exactly |
+| "Custom schedule" (cadence label) → "Personalizada" | feminine to agree with "tarefa"; "schedule" dropped |
+| "Get {grantAmount, number} credits each" → "Cada um ganha {grantAmount, number} créditos" | referral reward pill; ICU placeholder preserved |
+| "codex-apps / feature branch" → "codex-apps / feature branch" | Storybook; both terms DNT |
+| "Altíssimo" | approved superlative for "Extra High" Intelligence preset across all instances |
 
-### Additional Locked Decisions — This Session
+### Additional Locked Decisions — Previous Session
 
 | Decision | Value |
 |---|---|
@@ -342,6 +393,44 @@ All four strings confirmed by PM. "ocorrência de" dropped. `{weekday}` = Mon–
 | Legacy | Legado | Subtitle, legacy memories screen |
 | Codex turn failed. | A execução do Codex falhou. | Error message |
 | Queue | Colocar na fila | Option label, Codex Remote |
+| file attachments | anexos | Plural noun label, rate-limit banners |
+| You're out of file attachments — to get more, upgrade to Plus | Você atingiu o limite de anexos — para ter mais, faça upgrade para o Plus | File upload rate limit banner title |
+| Otherwise, your limit will reset $resets_after. | Caso contrário, seu limite será redefinido $resets_after. | Rate limit banner description; no preposition before placeholder |
+| a Codex rate limit reset to your account | uma redefinição do limite de uso do Codex na sua conta | Referral reward description |
+| The user wants a check-in. | O usuário quer uma confirmação. | Reasoning sidebar detail, agentic context |
+| Speech output | Respostas por voz | What's New section heading, agent builder |
+| More assistive agent building experience | Criação de agentes mais assistida | What's New section heading, agent builder |
+| A few things to know | Algumas coisas para saber | Bottom sheet title, account disclosure |
+| ChatGPT is AI. By using it, you agree to our <annotation url="https://openai.com/terms/">Terms</annotation> & <annotation url="https://openai.com/privacy/">Privacy Policy</annotation>. | ChatGPT é IA. Ao usá-lo, você concorda com nossos <annotation url="https://openai.com/terms/">Termos</annotation> e com a nossa <annotation url="https://openai.com/privacy/">Política de Privacidade</annotation>. | Legal footer, experiment landing page |
+| Export to Google Slides | Exportar para o Google Slides | Dropdown menu item |
+| Settings your site uses while it runs, like URLs, names, or feature switches | Configurações que seu site usa durante a execução, como URLs, nomes ou feature flags | Site environment variable settings description |
+| Commit or push | Commit ou push | Command menu item, Git |
+| Get {grantAmount, number} credits each | Cada um ganha {grantAmount, number} créditos | Referral reward pill, Codex invite modal |
+| Chats | Conversas | iOS Global Search category filter title |
+| Chat | Conversa | iOS Global Search fallback subtitle |
+| Search chats, files, and projects | Pesquisar conversas, arquivos e projetos | iOS Global Search pre-query prompt |
+| Extra High | Altíssimo | Thinking Intelligence picker preset (all instances, including compound labels) |
+| Pro Extended | Pro Estendido | Intelligence picker preset |
+| Thinking Extra High | Raciocínio Altíssimo | Settings picker menu option |
+| Stopped reviewing network access to %@. | A revisão do acesso à rede para %@ foi interrompida. | Fallback detail, Codex Remote network access review |
+| Pursuing goal | Buscando meta | Codex Remote active goal status |
+| Referral email domain must match a non-social workspace domain | O domínio do e-mail de indicação deve corresponder a um domínio não social do espaço de trabalho | Error, Codex workspace referral invite |
+| Personalized | Personalizada | Post-tailoring status (implicit noun: resposta, feminine) |
+| Running | Em andamento | Check status, thread summary panel flyout |
+| Succeeded | Bem-sucedida | Check status, thread summary panel flyout (implicit noun: verificação, feminine) |
+| Unknown | Desconhecida | Check status, thread summary panel flyout (implicit noun: verificação, feminine) |
+| The step owns logging while children own layout | A etapa controla o registro, enquanto os filhos controlam o layout | Storybook description, onboarding step behavior wrapper |
+| codex-apps / feature branch | codex-apps / feature branch | Storybook example; both terms DNT |
+| Tooltip | Tooltip | Storybook button label; DNT |
+| Draft from Drive context | Rascunho do contexto do Drive | Google plugin upgrade install modal benefit title |
+| a new worktree | um novo worktree | Cross-host handoff copy |
+| Moved git state to the destination worktree, but couldn't switch this chat there | O estado do git foi movido para a worktree de destino, mas não foi possível mudar este chat para lá | Warning, cross-host handoff partial success |
+| Composer footer | Rodapé do Composer | Settings group heading; "Composer" DNT |
+| Handler | Handler | Hook config label; DNT |
+| Matcher | Matcher | Hook config label; DNT |
+| $cadence task | Tarefa $cadence | Task opt-in widget status line |
+| Custom schedule | Personalizada | Cadence label; feminine to agree with "tarefa" |
+| your child | seu filho | Masculine default per stakeholder preference |
 
 ---
 
@@ -362,7 +451,6 @@ These remain unresolved. Do not silently normalize — call out uncertainty and 
 - **Inverse trig spacing**: confirm one-word vs. two-word forms consistently
 - **Plural for "%2$@ listagem"**
 - **Connector-name gender agreement** in constructions like "do $connector_name"
-- **"workspace" glossary review**: "Espaço de trabalho" approved for tab label context only; full glossary review pending before broader normalization
 - **Time-of-day picker full set confirmation**
 - **Conversa sem título vs. Chat sem título**
 - **De falantes vs. do falante**
@@ -379,6 +467,8 @@ These remain unresolved. Do not silently normalize — call out uncertainty and 
 - **"de arquivo" consistency** across attachment strings: pending PM decision
 - **Limpar seção selecionada vs. Limpar seção específica**: pending PM decision
 - **Deny**: "Recusar" — pending PM confirmation
+- **Implicit noun gender for thread summary panel flyout check status labels** (Running/Succeeded/Unknown): "verificação" assumed feminine — confirm surface noun before final acceptance
+- **Personalized (post-tailoring status)**: "resposta" assumed as implicit noun — confirm if UI frames tailored output differently
 
 ---
 
