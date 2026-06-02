@@ -45,9 +45,28 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 
 ## Updated Terms From This Session
 
+"P&ID" -> nunca traduzir a sigla; expandir para "diagrama de tubulação e instrumentação" no corpo do texto quando necessário
+"P&ID Symbols Legend" -> "Legenda de Símbolos de Diagramas de Tubulação e Instrumentação"
+"How to Make a P&ID Diagram" -> "Como criar um diagrama de tubulação e instrumentação"
+"Hazard and Operability Study" -> "Estudo de Perigos e Operabilidade" (manter sigla HAZOP)
+"process facilities" -> "instalações de processo"
+"legacy diagram macros" -> "macros legadas de diagrama"
+"Run discovery" -> "Executar descoberta"
+"diagram macros" -> "macros de diagrama"
+"separator vessel" -> "vaso separador"
+"pressurized vessel" -> "vaso pressurizado"
+"heat exchanger" -> "trocador de calor"
+"fluid flow system" -> "sistema de fluxo de fluidos"
+"piping and instrumentation diagram" -> "diagrama de tubulação e instrumentação"
+"restore documents" -> "restaurar documentos"
+"backup files" -> "arquivos de backup"
+"custom asset" -> "ativo personalizado"
+"inherited layouts" -> "layouts herdados"
+"rectangular container types" -> "tipos de caixas retangulares"
+"delicensed" -> "tiveram suas licenças removidas"
 "training labs" -> "oficina de treinamentos"
 "customer journey" -> "jornada do cliente"
-"piping and instrument diagram" -> "diagrama de tubulação e instrumento"
+"piping and instrument diagram" -> "diagrama de tubulação e instrumentação"
 "sticky notes" -> "notas adesivas"
 "@mention" -> "função de marcar colegas com @"
 "add-on" / "add-ons" -> "extensão" / "extensões"
@@ -71,6 +90,8 @@ Consulte o glossário Smartling completo. Destaques: "board" -> "mural" / "canva
 ## Translated Content From This Session
 
 Strings de UI de gestão de licenças e proprietários de conteúdo. Páginas de marketing e blog do Lucidchart e Lucidspark. Guia completo de diagramas de fluxo de processo (PFD). Páginas de diagramas de circuito. Páginas de mapas de jornada do cliente. Conteúdo sobre genogramas e diagramas de rack. Guia de símbolos de fluxograma (comuns e adicionais). Páginas de diagramas de rede, bases de dados, diagramas de Venn e plantas baixas. Strings de UI de compartilhamento de fontes de dados, emojis personalizados, revisão de diagrama e Enterprise Shield. Blog de novidades da primavera de 2026 (Lately @ Lucid). Strings de e-mail transacional. Recursos do Agente de Processos e da Extensão Processos. Melhorias de planejamento e Fichas da Lucid.
+
+Strings de UI do Confluence (descoberta e conversão de macros, restauração de backup, gestão de licenças). Página completa de guia de P&IDs (definição, usos, símbolos, diferença entre P&ID e PFD, importância para instalações de processo). Strings de marketing e SEO do Lucidchart. Conteúdo sobre diagramas de interação UML (diagramas de sequência, comunicação, temporização e visão geral de interação). Strings de UI diversas (filtros de documento, campos de importação, configuração de recursos de nuvem).
 
 ## Limit Alert
 
