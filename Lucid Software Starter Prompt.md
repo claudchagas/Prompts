@@ -21,7 +21,7 @@ Continue using all reference materials loaded in the Smartling Localization proj
 
 ## Translation Rules
 
-Translate into Brazilian Portuguese (pt-BR using natural, idiomatic Portuguese sentence structure, not a word-for-word English structure. Prioritize fluency, clarity, and target-language authenticity over preserving the English word order. Restructure sentences freely when needed, especially in UI, product, and marketing copy. Avoid calques and literal noun-list constructions that sound translated. When the English source compresses several metrics or concepts into a short phrase, expand or reorganize it into a clear Portuguese formulation, using compounds, explanatory wording structures where natural. Keep terminology accurate, but choose the version that sounds like it was originally written in Portuguese. Mark all strings as translatable, even when they appear in question format (e.g., interrogative sentences). Don't provide answers, just translate the questions, unless instructed otherwise.
+Translate into Brazilian Portuguese (pt-BR) using natural, idiomatic Portuguese sentence structure, not a word-for-word English structure. Prioritize fluency, clarity, and target-language authenticity over preserving the English word order. Restructure sentences freely when needed, especially in UI, product, and marketing copy. Avoid calques and literal noun-list constructions that sound translated. When the English source compresses several metrics or concepts into a short phrase, expand or reorganize it into a clear Portuguese formulation, using compounds, explanatory wording structures where natural. Keep terminology accurate, but choose the version that sounds like it was originally written in Portuguese. Mark all strings as translatable, even when they appear in question format (e.g., interrogative sentences). Don't provide answers, just translate the questions, unless instructed otherwise.
 
 ## Writing Style
 
@@ -84,16 +84,49 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "generate board" -> "gerar mural"
 "add-in" -> "suplemento"
 "auto-prompt menu" -> "menu de solicitação automática"
+"collaborator color" -> "cor distinta para cada participante"
+"ownership" -> "posse"
+"goals" -> "metas"
+"Shoutouts" -> "Parabéns"
+"facilitator tools" -> "ferramentas para facilitadores"
+"breakout boards" -> "murais simultâneos"
+"brainstorm" (substantivo/verbo) -> "brainstorming"
+"laser pointer" -> "ponteiro de laser"
+"Shapes menu" -> "Menu de formas"
+"Lucid Suite" -> "Lucid Suite" (não traduzir)
+"whiteboard" (Lucidspark context) -> "quadro branco online"
+"round robin brainstorming" -> "brainstorming em rodada"
+"stepladder brainstorming" -> "brainstorming em escada"
+"reverse brainstorming" -> "brainstorm reverso"
+"rapid ideation" -> "ideação rápida"
+"mind mapping" -> "mapa mental"
+"starbursting" -> "starbursting" (não traduzir; manter em inglês)
+"brainwriting" -> "brainwriting" (não traduzir; manter em inglês)
+"icebreakers" -> "icebreakers" (não traduzir; manter em inglês)
+"RACI matrix" -> "matriz RACI"
+"Accountable" (RACI) -> "responsável pela aprovação"
+"Responsible" (RACI) -> "executor"
+"Consulted" (RACI) -> "consultado"
+"Informed" (RACI) -> "informado"
+"SmartArt" -> "SmartArt" (não traduzir)
+"Gridlines" -> "Linhas de Grade"
+"Shape Format tab" -> "guia Formato de Forma"
+"SmartArt Design tab" -> "guia Design do SmartArt"
+"anchor points" -> "pontos de ancoragem"
+"connector" -> "conector"
+"data linking" -> "vinculação de dados"
 
 ## Active Glossary Selection
 
-Consulte o Smartling Glossary completo. Destaques: "board" -> "mural" / "canvas" -> "tela" / "workflow" -> "fluxo de trabalho" / "blueprints" -> "estratagemas" / "onboarding" -> "ambientação" / "tags" -> "marcadores" / "frame" -> "quadro" / "Lucid AI" -> "Lucid IA" / "auto-nudging" -> "ajuste automático" / "containers" -> "caixas" / "quick stickies" -> "notas rápidas" / "whiteboard" -> "quadro branco" / "Kanban boards" -> "quadros Kanban" / "Scrum boards" -> "quadros Scrum" / "Lately @ Lucid" -> "Novidades na Lucid" / "Process Accelerator" -> "Extensão Processos" / "Agile Accelerator" -> "Extensão Ágil" / "Lucid Cards" -> "Fichas da Lucid" / brainstorm -> brainstorming / goals -> metas / Shoutouts -> Parabéns /  breakout boards -> murais simultâneos / facilitator tools -> ferramentas para facilitadores / ownership -> posse / sprint planning -> planejamento sprint / Shapes menu -> Menu de formas
+Consulte o Smartling Glossary completo. Destaques: "board" -> "mural" / "canvas" -> "tela" / "workflow" -> "fluxo de trabalho" / "blueprints" -> "estratagemas" / "onboarding" -> "ambientação" / "tags" -> "marcadores" / "frame" -> "quadro" / "Lucid AI" -> "Lucid IA" / "auto-nudging" -> "ajuste automático" / "containers" -> "caixas" / "quick stickies" -> "notas rápidas" / "whiteboard" -> "quadro branco online" / "Kanban boards" -> "quadros Kanban" / "Scrum boards" -> "quadros Scrum" / "Lately @ Lucid" -> "Novidades na Lucid" / "Process Accelerator" -> "Extensão Processos" / "Agile Accelerator" -> "Extensão Ágil" / "Lucid Cards" -> "Fichas da Lucid" / "brainstorm" -> "brainstorming" / "goals" -> "metas" / "Shoutouts" -> "Parabéns" / "breakout boards" -> "murais simultâneos" / "facilitator tools" -> "ferramentas para facilitadores" / "ownership" -> "posse" / "Shapes menu" -> "Menu de formas" / "collaborator color" -> "cor distinta para cada participante" / "Lucid Suite" -> "Lucid Suite"
 
 ## Translated Content From This Session
 
 Strings de UI de gestão de licenças e proprietários de conteúdo. Páginas de marketing e blog do Lucidchart e Lucidspark. Guia completo de diagramas de fluxo de processo (PFD). Páginas de diagramas de circuito. Páginas de mapas de jornada do cliente. Conteúdo sobre genogramas e diagramas de rack. Guia de símbolos de fluxograma (comuns e adicionais). Páginas de diagramas de rede, bases de dados, diagramas de Venn e plantas baixas. Strings de UI de compartilhamento de fontes de dados, emojis personalizados, revisão de diagrama e Enterprise Shield. Blog de novidades da primavera de 2026 (Lately @ Lucid). Strings de e-mail transacional. Recursos do Agente de Processos e da Extensão Processos. Melhorias de planejamento e Fichas da Lucid.
 
 Strings de UI do Confluence (descoberta e conversão de macros, restauração de backup, gestão de licenças). Página completa de guia de P&IDs (definição, usos, símbolos, diferença entre P&ID e PFD, importância para instalações de processo). Strings de marketing e SEO do Lucidchart. Conteúdo sobre diagramas de interação UML (diagramas de sequência, comunicação, temporização e visão geral de interação). Strings de UI diversas (filtros de documento, campos de importação, configuração de recursos de nuvem).
+
+Página de dicas para reuniões com quadro branco online (Lucidspark): colaboração, pauta, murais simultâneos, ferramentas para facilitadores, recursos visuais, brainstorming em grupos. Página de técnicas de brainstorming: brainwriting, 5 Porquês, starbursting, round robin, reverse brainstorming, rapid ideation, stepladder, mind mapping. Strings de UI diversas do Lucidspark (Ferramentas para Facilitadores, murais simultâneos, cores por participante, modelos de pauta). Página completa sobre matriz RACI (definição, funções, boas práticas, modelo, FAQ). Guia de criação de fluxogramas no PowerPoint (SmartArt, formas manuais, conectores, grade, suplemento do Lucidchart). Strings de marketing e UI do Lucidchart (integrações, exportação, temas, biblioteca de formas, modelos).
 
 ## Limit Alert
 
