@@ -82,6 +82,7 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "object assets" -> "ativos de objetos"
 "parent cards" -> "cartões pai"
 "generate board" -> "gerar mural"
+"add-in" -> "suplemento"
 
 ## Active Glossary Selection
 
