@@ -116,6 +116,7 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "connector" -> "conector"
 "data linking" -> "vinculação de dados"
 "share button" -> "botão de compartilhamento"
+"single sign-on" -> "autenticação única (SSO)"
 
 ## Active Glossary Selection
 
