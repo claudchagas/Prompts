@@ -83,6 +83,7 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "parent cards" -> "cartões pai"
 "generate board" -> "gerar mural"
 "add-in" -> "suplemento"
+"auto-prompt menu" -> "menu de solicitação automática"
 
 ## Active Glossary Selection
 
