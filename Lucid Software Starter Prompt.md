@@ -115,6 +115,7 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "anchor points" -> "pontos de ancoragem"
 "connector" -> "conector"
 "data linking" -> "vinculação de dados"
+"share button" -> "botão de compartilhamento"
 
 ## Active Glossary Selection
 
