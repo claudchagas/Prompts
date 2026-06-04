@@ -120,6 +120,7 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "educators" -> "professores"
 "shareable link" -> "link compartilhável"
 "cross-functional" -> "multifuncional"
+"Unified Modeling Language (UML)" -> "Linguagem de Modelação Unificada (UML)"
 
 ## Active Glossary Selection
 
