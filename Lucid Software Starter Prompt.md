@@ -146,10 +146,11 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "SIPOC diagram" -> "diagrama SIPOC"
 "process map" -> "mapa de processo"
 "process mapping" -> "mapeamento de processos"
+"endpoint node" -> "nó de desfecho"
 
 ## Active Glossary Selection
 
-Consulte o Smartling Glossary completo. Destaques: "add-in" -> "complemento" / "board" -> "mural" / "canvas" -> "tela" / "workflow" -> "fluxo de trabalho" / "blueprints" -> "estratagemas" / "onboarding" -> "ambientação" / "tags" -> "marcadores" / "frame" -> "quadro" / "Lucid AI" -> "Lucid IA" / "auto-nudging" -> "ajuste automático" / "containers" -> "caixas" / "quick stickies" -> "notas rápidas" / "whiteboard" -> "quadro branco online" / "Kanban boards" -> "quadros Kanban" / "Scrum boards" -> "quadros Scrum" / "Lately @ Lucid" -> "Novidades na Lucid" / "Process Accelerator" -> "Extensão Processos" / "Agile Accelerator" -> "Extensão Ágil" / "Lucid Cards" -> "Fichas da Lucid" / "brainstorm" -> "brainstorming" / "goals" -> "metas" / "Shoutouts" -> "Parabéns" / "breakout boards" -> "murais simultâneos" / "facilitator tools" -> "ferramentas para facilitadores" / "ownership" -> "posse" / "Shapes menu" -> "Menu de formas" / "collaborator color" -> "cor distinta para cada participante" / "Lucid Suite" -> "Lucid Suite"
+Consulte o Smartling Glossary completo. Destaques: "add-in" -> "complemento" / "board" -> "mural" / "canvas" -> "tela" / "endpoint node" -> "nó de desfecho" / "workflow" -> "fluxo de trabalho" / "blueprints" -> "estratagemas" / "onboarding" -> "ambientação" / "tags" -> "marcadores" / "frame" -> "quadro" / "Lucid AI" -> "Lucid IA" / "auto-nudging" -> "ajuste automático" / "containers" -> "caixas" / "quick stickies" -> "notas rápidas" / "whiteboard" -> "quadro branco online" / "Kanban boards" -> "quadros Kanban" / "Scrum boards" -> "quadros Scrum" / "Lately @ Lucid" -> "Novidades na Lucid" / "Process Accelerator" -> "Extensão Processos" / "Agile Accelerator" -> "Extensão Ágil" / "Lucid Cards" -> "Fichas da Lucid" / "brainstorm" -> "brainstorming" / "goals" -> "metas" / "Shoutouts" -> "Parabéns" / "breakout boards" -> "murais simultâneos" / "facilitator tools" -> "ferramentas para facilitadores" / "ownership" -> "posse" / "Shapes menu" -> "Menu de formas" / "collaborator color" -> "cor distinta para cada participante" / "Lucid Suite" -> "Lucid Suite"
 
 ## Translated Content From This Session
 
