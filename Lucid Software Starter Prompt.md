@@ -119,6 +119,7 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "single sign-on" -> "autenticação única (SSO)"
 "educators" -> "professores"
 "shareable link" -> "link compartilhável"
+"cross-functional" -> "multifuncional"
 
 ## Active Glossary Selection
 
