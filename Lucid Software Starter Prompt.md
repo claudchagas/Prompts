@@ -70,7 +70,7 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "sticky notes" -> "notas adesivas"
 "@mention" -> "função de marcar colegas com @"
 "add-on" / "add-ons" -> "extensão" / "extensões"
-"add-in" -> "suplemento" (Microsoft Office context only)
+"add-in" -> "complemento"
 "border color" -> "cor do contorno"
 "stroke color" -> "cor do traçado"
 "Euler Venn diagram" -> "Diagrama de Euler-Venn"
@@ -130,7 +130,7 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "Kaizen burst" -> "explosão Kaizen"
 "org chart" -> "organograma"
 "organizational chart" -> "organograma"
-"Lucidchart add-on for Google Docs" -> "extensão do Lucidchart para o Google Docs" (NOTE: "add-on" = "extensão" for Lucid; "add-in" = "suplemento" for Microsoft Office only)
+"Lucidchart add-on for Google Docs" -> "extensão do Lucidchart para o Google Docs" (NOTE: "add-on" = "extensão" for Lucid;
 "use case diagram" -> "diagrama de casos de uso"
 "state machine diagram" / "state diagram" -> "diagrama de máquinas de estado" / "diagrama de estado"
 "composite state" -> "estado composto"
@@ -149,7 +149,7 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 
 ## Active Glossary Selection
 
-Consulte o Smartling Glossary completo. Destaques: "board" -> "mural" / "canvas" -> "tela" / "workflow" -> "fluxo de trabalho" / "blueprints" -> "estratagemas" / "onboarding" -> "ambientação" / "tags" -> "marcadores" / "frame" -> "quadro" / "Lucid AI" -> "Lucid IA" / "auto-nudging" -> "ajuste automático" / "containers" -> "caixas" / "quick stickies" -> "notas rápidas" / "whiteboard" -> "quadro branco online" / "Kanban boards" -> "quadros Kanban" / "Scrum boards" -> "quadros Scrum" / "Lately @ Lucid" -> "Novidades na Lucid" / "Process Accelerator" -> "Extensão Processos" / "Agile Accelerator" -> "Extensão Ágil" / "Lucid Cards" -> "Fichas da Lucid" / "brainstorm" -> "brainstorming" / "goals" -> "metas" / "Shoutouts" -> "Parabéns" / "breakout boards" -> "murais simultâneos" / "facilitator tools" -> "ferramentas para facilitadores" / "ownership" -> "posse" / "Shapes menu" -> "Menu de formas" / "collaborator color" -> "cor distinta para cada participante" / "Lucid Suite" -> "Lucid Suite"
+Consulte o Smartling Glossary completo. Destaques: "add-in" -> "complemento" / "board" -> "mural" / "canvas" -> "tela" / "workflow" -> "fluxo de trabalho" / "blueprints" -> "estratagemas" / "onboarding" -> "ambientação" / "tags" -> "marcadores" / "frame" -> "quadro" / "Lucid AI" -> "Lucid IA" / "auto-nudging" -> "ajuste automático" / "containers" -> "caixas" / "quick stickies" -> "notas rápidas" / "whiteboard" -> "quadro branco online" / "Kanban boards" -> "quadros Kanban" / "Scrum boards" -> "quadros Scrum" / "Lately @ Lucid" -> "Novidades na Lucid" / "Process Accelerator" -> "Extensão Processos" / "Agile Accelerator" -> "Extensão Ágil" / "Lucid Cards" -> "Fichas da Lucid" / "brainstorm" -> "brainstorming" / "goals" -> "metas" / "Shoutouts" -> "Parabéns" / "breakout boards" -> "murais simultâneos" / "facilitator tools" -> "ferramentas para facilitadores" / "ownership" -> "posse" / "Shapes menu" -> "Menu de formas" / "collaborator color" -> "cor distinta para cada participante" / "Lucid Suite" -> "Lucid Suite"
 
 ## Translated Content From This Session
 
