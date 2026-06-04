@@ -147,6 +147,8 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "process map" -> "mapa de processo"
 "process mapping" -> "mapeamento de processos"
 "endpoint node" -> "nó de desfecho"
+"decision tree template" -> "exemplo de árvore de decisão"
+"decision tree templates" -> "exemplos de árvore de decisão"
 
 ## Active Glossary Selection
 
