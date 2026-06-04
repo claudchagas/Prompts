@@ -118,6 +118,7 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "share button" -> "botão de compartilhamento"
 "single sign-on" -> "autenticação única (SSO)"
 "educators" -> "professores"
+"shareable link" -> "link compartilhável"
 
 ## Active Glossary Selection
 
