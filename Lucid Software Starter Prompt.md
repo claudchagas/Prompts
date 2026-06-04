@@ -70,6 +70,7 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "sticky notes" -> "notas adesivas"
 "@mention" -> "função de marcar colegas com @"
 "add-on" / "add-ons" -> "extensão" / "extensões"
+"add-in" -> "suplemento" (Microsoft Office context only)
 "border color" -> "cor do contorno"
 "stroke color" -> "cor do traçado"
 "Euler Venn diagram" -> "Diagrama de Euler-Venn"
@@ -82,7 +83,6 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "object assets" -> "ativos de objetos"
 "parent cards" -> "cartões pai"
 "generate board" -> "gerar mural"
-"add-in" -> "suplemento"
 "auto-prompt menu" -> "menu de solicitação automática"
 "collaborator color" -> "cor distinta para cada participante"
 "ownership" -> "posse"
@@ -120,7 +120,32 @@ Apenas prosa, sem marcadores, sem travessão, sem ponto e vírgula, sem emojis, 
 "educators" -> "professores"
 "shareable link" -> "link compartilhável"
 "cross-functional" -> "multifuncional"
-"Unified Modeling Language (UML)" -> "Linguagem de Modelação Unificada (UML)"
+"Unified Modeling Language (UML)" -> "Linguagem de Modelagem Unificada (UML)"
+"Six Sigma" -> "Six Sigma" (não traduzir)
+"deployment diagram" -> "diagrama de implementação"
+"swimlane (cross-functional) map" -> "fluxograma funcional (ou multifuncional)"
+"swimlane" (process/diagram context) -> "fluxograma funcional"
+"value stream map" / "value stream mapping" -> "mapa de fluxo de valor" / "mapeamento de fluxo de valor"
+"Lean" -> "Lean" (não traduzir)
+"Kaizen burst" -> "explosão Kaizen"
+"org chart" -> "organograma"
+"organizational chart" -> "organograma"
+"Lucidchart add-on for Google Docs" -> "extensão do Lucidchart para o Google Docs" (NOTE: "add-on" = "extensão" for Lucid; "add-in" = "suplemento" for Microsoft Office only)
+"use case diagram" -> "diagrama de casos de uso"
+"state machine diagram" / "state diagram" -> "diagrama de máquinas de estado" / "diagrama de estado"
+"composite state" -> "estado composto"
+"choice pseudostate" -> "pseudoestado de escolha"
+"BPMN gateway" -> "gateway BPMN"
+"exclusive gateway" -> "gateway exclusivo"
+"parallel gateway" -> "gateway paralelo"
+"inclusive gateway" -> "gateway inclusivo"
+"event-based gateway" -> "gateway baseado em eventos"
+"Business Model Canvas" -> "Business Model Canvas" (não traduzir)
+"value-added chain diagram" -> "diagrama de cadeia de valor agregado"
+"work flow diagram" -> "diagrama de fluxo de trabalho"
+"SIPOC diagram" -> "diagrama SIPOC"
+"process map" -> "mapa de processo"
+"process mapping" -> "mapeamento de processos"
 
 ## Active Glossary Selection
 
@@ -132,7 +157,9 @@ Strings de UI de gestão de licenças e proprietários de conteúdo. Páginas de
 
 Strings de UI do Confluence (descoberta e conversão de macros, restauração de backup, gestão de licenças). Página completa de guia de P&IDs (definição, usos, símbolos, diferença entre P&ID e PFD, importância para instalações de processo). Strings de marketing e SEO do Lucidchart. Conteúdo sobre diagramas de interação UML (diagramas de sequência, comunicação, temporização e visão geral de interação). Strings de UI diversas (filtros de documento, campos de importação, configuração de recursos de nuvem).
 
-Página de dicas para reuniões com quadro branco online (Lucidspark): colaboração, pauta, murais simultâneos, ferramentas para facilitadores, recursos visuais, brainstorming em grupos. Página de técnicas de brainstorming: brainwriting, 5 Porquês, starbursting, round robin, reverse brainstorming, rapid ideation, stepladder, mind mapping. Strings de UI diversas do Lucidspark (Ferramentas para Facilitadores, murais simultâneos, cores por participante, modelos de pauta). Página completa sobre matriz RACI (definição, funções, boas práticas, modelo, FAQ). Guia de criação de fluxogramas no PowerPoint (SmartArt, formas manuais, conectores, grade, suplemento do Lucidchart). Strings de marketing e UI do Lucidchart (integrações, exportação, temas, biblioteca de formas, modelos).
+Página de dicas para reuniões com quadro branco online (Lucidspark): colaboração, pauta, murais simultâneos, ferramentas para facilitadores, recursos visuais, brainstorming em grupos. Página de técnicas de brainstorming: brainwriting, 5 Porquês, starbursting, round robin, reverse brainstorming, rapid ideation, stepladder, mind mapping. Strings de UI diversas do Lucidspark (Ferramentas para Facilitadores, murais simultâneos, cores por participante, modelos de pauta). Página completa sobre matriz RACI (definição, funções, boas práticas, modelo, FAQ). Guia de criação de fluxogramas no PowerPoint (SmartArt, formas manuais, conectores, grade, extensão do Lucidchart). Strings de marketing e UI do Lucidchart (integrações, exportação, temas, biblioteca de formas, modelos).
+
+Guia completo de fluxogramas (Lucidchart): criação do zero, formatação, cores, temas, swimlanes, símbolos, importação de dados, boas práticas. Strings de UI de passcode/permissões de compartilhamento e dados de forma. Guia de mapeamento de processos: tipos de mapas (SIPOC, fluxograma funcional, cadeia de valor agregado, fluxo de trabalho), símbolos, boas práticas, FAQ. Guia completo de mapeamento de fluxo de valor (VSM): histórico, Lean vs. Six Sigma, fases (estado atual, estado futuro, implementação), usos por setor, dicas práticas, FAQ. Guia de diagramas de casos de uso UML: símbolos, atores, limite do sistema, como criar, FAQ. Guia de diagramas de máquinas de estado UML: símbolos, estados compostos, pseudoestados, como criar, colaboração, FAQ. Guia de gateways BPMN: tipos (exclusivo, paralelo, inclusivo, complexo, baseado em eventos), FAQ. Guia de organogramas: tipos, usos, limitações, como criar, FAQ. Guia de diagramas de implementação UML: nós, artefatos, componentes, como criar no Lucidchart. Strings de UI diversas (Lucid IA, dados de forma, compartilhamento, Confluence).
 
 ## Limit Alert
 
